@@ -45,10 +45,26 @@ header {
     padding: 2.5rem 1.5rem 1.5rem 1.5rem;
 }
 
+nav.active {
+    transition: all 1200ms ease;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+  }
+
+nav.hidden{
+    transition:  all 1500ms ease;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -20%;
+}
+
 nav{
     background: rgba(0,0,0, 0.3);
     width: max-content;
-    display:block;
+    display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     display: flex;
@@ -56,8 +72,6 @@ nav{
     border-radius: 3rem;
     position: fixed;
     bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
     backdrop-filter: blur(1rem);
 }
 
@@ -78,6 +92,7 @@ nav a.active{
     background-color: var(--colour-bg);
     color: var(--colour--white);
 }
+
 
 /* MEDIA QUERIES */
 
