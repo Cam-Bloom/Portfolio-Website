@@ -22,7 +22,6 @@ const Navbar = () => {
 
     }, [scroll.y, scroll.lastY])
 
-    console.log(navClassList);
   return (
     <nav className={navClassList.join(" ")}>
         <a href= "#home" onClick={() => setActiveNav('#home')} className={activeNav === '#home'  ? 'active': ''}><FiHome></FiHome></a>
