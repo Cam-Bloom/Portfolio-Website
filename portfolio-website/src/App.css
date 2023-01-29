@@ -96,6 +96,85 @@ nav a.active{
     color: var(--colour--white);
 }
 
+/* ABOUT */
+#about{
+    height: auto;
+    /* min-height: 75vh; */
+
+}
+
+.about__container{
+   display: grid;
+   grid-template-columns: 35% 50%;
+   gap: 15%; 
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid var(--colour-primary);
+    box-sizing: border-box;
+    /* linear-gradient(45deg, transparent, var(--colour-primary), transparent); */
+
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    width: 102%;
+    background-color: var(--colour-bg-varient);
+    border-radius: 50%;
+    overflow: hidden;
+    
+    transition: var(--transition);
+}
+
+.about__me-image:hover{
+    transform: translate(1rem, 1rem) rotate(8deg);
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem
+}
+
+.about__card {
+    background-color: var(--colour-bg-varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover{
+    background-color: transparent;
+    border-color: var(--colour-primary);
+    cursor: default;
+}
+
+.about__icon {
+    color: var(--colour-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--colour-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--colour-light);
+}
+
 /* PORTFOLIO */
 
 .portfolio__container{
@@ -103,13 +182,13 @@ nav a.active{
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
-
 .portfolio__item{
     background: var(--colour-bg-varient);
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
+
 
 .portfolio__item:hover{
     border-color: var(--colour-primary-varient);
@@ -169,20 +248,65 @@ nav a.active{
         height: 68vh;
     }
 
+    .header__socials{
+        display: none;
+    }
+
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content p {
+        margin: 1rem 0  1.5rem;
+    }
+
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
+    }
+    
+    #portfolio{
+        height: auto;
     }
 }
 
 @media screen and (max-width: 1024px){
+    header{
+        height: 100vh;
+    }
+
+
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
 
-    header{
-        height: 100vh;
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__content{
+        text-align: center;
+    }
+
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content p {
+        margin: 1rem 0  1.5rem;
+    }
+
+    #portfolio{
+        height: auto;
     }
 }
 
@@ -195,8 +319,30 @@ nav a.active{
         display: none;
     }
 
+    .about__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content{
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    #portfolio{
+        height: auto;
     }
 }
