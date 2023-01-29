@@ -14,10 +14,10 @@ const portfolioItems = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
     technoUsed: ["node", "express"]},
     {title: "Project 5",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
+    desc: "Loreonsectetur voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
     technoUsed: ["node", "express"]},
     {title: "Project 6",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
+    desc: "Loreicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
     technoUsed: ["node", "express"]},
 ]
 
