@@ -5,13 +5,13 @@ import { FiPhone } from "react-icons/fi";
 const HeaderSocials = () => {
 	return (
 		<div className="header__socials">
-			<a href="" target="_blank">
+			<a href="https://www.linkedin.com/in/cameron-bloomfield-782b1a195/" target="_blank">
 				<FiLinkedin />
 			</a>
-			<a href="" target="_blank">
+			<a href="https://github.com/Cam-Bloom" target="_blank">
 				<FiGithub />
 			</a>
-			<a href="" target="_blank">
+			<a href="tel:+447975716698">
 				<FiPhone />
 			</a>
 		</div>

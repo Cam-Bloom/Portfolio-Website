@@ -106,7 +106,7 @@ nav a.active{
 .about__container{
    display: grid;
    grid-template-columns: 35% 50%;
-   gap: 15%; 
+   gap: 12%; 
 }
 
 .about__me{

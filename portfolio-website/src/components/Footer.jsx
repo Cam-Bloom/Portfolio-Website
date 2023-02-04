@@ -23,13 +23,13 @@ const Footer = () => {
 			</ul>
 
 			<div className="footer_socials">
-				<a href="">
+				<a href="www.linkedin.com/in/cameron-bloomfield-782b1a195">
 					<FiLinkedin />
 				</a>
-				<a href="">
+				<a href="https://github.com/Cam-Bloom">
 					<FiGithub />
 				</a>
-				<a href="">
+				<a href="tel:+447975716698">
 					<FiPhone />
 				</a>
 			</div>
