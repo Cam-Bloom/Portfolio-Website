@@ -92,8 +92,8 @@ nav a:hover{
 }
 
 nav a.active{
-    background-color: var(--colour-bg);
-    color: var(--colour--white);
+    background-color: var(--colour-primary);
+    color: var(--colour-bg);
 }
 
 /* ABOUT */
@@ -262,6 +262,57 @@ input, textarea{
     resize: none;
     color: var(--colour--white);
 }
+
+/* FOOTER */
+
+.footer{
+    background-color: var(--colour-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 16rem;
+}
+
+footer a {
+    color: var(--colour-bg);
+}
+
+.footer_name_logo{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.footer_socials{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+
+.footer_socials a{
+    background-color: var(--colour-bg);
+    color: var(--colour--white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer_socials a:hover{
+    background: transparent;
+    color: var(--colour-bg);
+    border-color: var(--colour-bg);
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1024px) and (min-height: 800px) {
@@ -292,9 +343,6 @@ input, textarea{
         gap: 1.2rem;
     }
     
-    #portfolio{
-        height: auto;
-    }
 
     
 }
