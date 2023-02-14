@@ -23,10 +23,10 @@ const Footer = () => {
 			</ul>
 
 			<div className="footer_socials">
-				<a href="www.linkedin.com/in/cameron-bloomfield-782b1a195">
+				<a href="https://www.linkedin.com/in/cam-bloom/" target="_blank">
 					<FiLinkedin />
 				</a>
-				<a href="https://github.com/Cam-Bloom">
+				<a href="https://github.com/Cam-Bloom" target="_blank">
 					<FiGithub />
 				</a>
 				<a href="tel:+447975716698">
