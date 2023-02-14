@@ -17,7 +17,7 @@ const PortfolioCard = ({ item }) => {
 								</a>
 							)}
 							{liveLink && (
-								<a href={liveLink}>
+								<a href={liveLink} target="_blank">
 									<FiLink />
 								</a>
 							)}

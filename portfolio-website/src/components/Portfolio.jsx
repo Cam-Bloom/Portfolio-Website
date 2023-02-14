@@ -2,6 +2,13 @@ import PortfolioCard from "./PortfolioCard";
 
 const portfolioItems = [
 	{
+		title: "News Website",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
+		technoUsed: ["Javascript", "React", "CSS3"],
+		githubLink: "https://github.com/Cam-Bloom/FE-News-Site",
+		liveLink: "https://bloom-news.netlify.app/",
+	},
+	{
 		title: "News Article API",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
 		technoUsed: ["Node", "Express", "PostgresSQL"],
@@ -9,19 +16,17 @@ const portfolioItems = [
 		liveLink: "https://cb-news-api.onrender.com/api",
 	},
 	{
-		title: "Project 2",
+		title: "Portfolio Website",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
-		technoUsed: ["node", "express"],
+		technoUsed: ["React", "Javascript", "CSS3"],
+		githubLink: "https://github.com/Cam-Bloom/Portfolio-Website",
+		liveLink: "https://cam-bloom.netlify.app/",
 	},
 	{
-		title: "Project 3",
+		title: "Depth Filtration Modeling MATLAB",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
-		technoUsed: ["node", "express"],
-	},
-	{
-		title: "Project 4",
-		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
-		technoUsed: ["node", "express"],
+		technoUsed: ["MATLAB"],
+		githubLink: "https://github.com/Cam-Bloom/Multilayer-Modeling-Lauter-Tun"
 	},
 	{
 		title: "Project 5",
