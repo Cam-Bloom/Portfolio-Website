@@ -34,9 +34,9 @@ const portfolioItems = [
 		technoUsed: ["node", "express"],
 	},
 	{
-		title: "Project 6",
+		title: "Northcoders Final Project Coming Soon !!",
 		desc: "Loreicing elit. Temporibus voluptatum quos, aliquam nisi quis eius voluptatibus similique? Tempor,",
-		technoUsed: ["node", "express"],
+		technoUsed: ["?", "?", "?"],
 	},
 ];
 
